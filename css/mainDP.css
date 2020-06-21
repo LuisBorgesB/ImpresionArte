@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 360px;
+}
+
+/*Encabezado*/
+
+.headerS {
+    width: 100%;
+    height: 3.2em;
+    position: fixed;
+    background-color: #E494A4;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.headerF {
+    width: 100%;
+    height: 3.2em;
+    background-color: #E494A4;
+    z-index: 1000;
+    position: fixed;
+    overflow: hidden;
+    border-bottom: 1px solid #ffffff;
+}
+
+.botonF {
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    position: fixed;
+    cursor: pointer;
+    display: initial;
+}
+
+.Mcont_MenuFlex_2{
+    display: none;
+}
+
+.cont_MenuFlex-s_2{
+    display: none;
+}
+
+#cMC{
+    float: right;
+    display: flex;
+    height: 3.2em;
+    align-items: center;
+    width: 60em;
+    min-width: 10em;
+}
+
+#mail{
+    height: 2.0em;
+    padding-right: 0.5em;
+}
+
+#tmail{
+    padding-right: 10em;
+}
+
+#telf{
+    height: 2.3em;
+    padding-right: 0.5em;
+}
+
+#tmail, #ntelf{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#cRS{
+    width: 8em;
+    z-index: 1001;
+    float: right;
+    display: flex;
+    height: 3.2em;
+    align-items: center;
+}
+
+#face{
+    height: 2.1em;
+    padding-right: 1em;
+}
+
+#insta{
+    height: 2.3em;
+}
+
+/*Clases a parte*/
+.mostrar{
+    display: initial;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+/*detalleP*/
+
+
+#imagenes, #informacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorImgDP, #contenedorInfyControl{
+    width: 80%;
+    height: 85%;
+    margin-top: 6%;
+}
+
+#controladorAtrasSiguiente{
+    width: 100%;
+    height: 10%;
+}
+
+#contenedorInfoDP{
+    width: 100%;
+    height: 90%;
+}
+
+#contenedorVistaImagen, #contenedorMiniVistaImg{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorMiniVistaImg{
+    height: 20%;
+}
+
+#contImg{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#miniVista_1, #miniVista_2{
+    margin-right: 1em;
+}
+
+#miniVista_1, #miniVista_2, #miniVista_3{
+    width: 5em;
+    height: 5em;
+    border: solid 1px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+#miniVista_1:hover, #miniVista_2:hover, #miniVista_3:hover{
+    border: solid 2px;
+}
+
+#fotoB1, #fotoB2, #fotoB3{
+    width: 300px;
+    height: 300px;
+}
+
+/*Navegador siguiente atras*/
+
+#controladorAtrasSiguiente{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-size: 0.8em;
+}
+
+#navegadorProductos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#atrasSiguiente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    justify-items: center;
+}
+
+#atras, #atras_2{
+    padding-right: 1em;
+    text-decoration: none;
+    color: grey;
+}
+
+#siguiente, #siguiente_2{
+    padding-left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+#simAtras, #simSiguiente, #simAtras_2, #simSiguiente_2{
+    text-decoration: none;
+    color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.5em;
+}
+
+#menuActual, #prodActual {
+    text-decoration: none;
+    color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+
+#simAtras, #prodActual, #simSiguiente_2, #siguiente_2{
+    color: grey;
+}
+
+#simAtras_2, #atras_2{
+    color: black;
+}
+
+#contenedorInfoDP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contInfoProducto{
+    width: 90%;
+    height: 100%;
+    font-size: 1em;
+}
+
+#contPrecioProducto{
+    width: 30%;
+    height: 100%;
+}
+
+#contPrecioProducto h2{
+    display: none;
+}
+
+#contInfoProducto h2{
+    padding-top: 2.8em;
+}
+
+#contInfoProducto ul{
+    padding-right: 0.7em;
+}
+
+#Codigo{
+    color: grey;
+    font-size: 0.9em;
+}
+
+#Tit{
+    padding-top: 1em;
+    color: red;
+}
+
+
+#botonPedir{
+    margin-top: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E494A4;
+    padding: 0.7em;
+    font-weight: bolder;
+}
+
+#botonPedir a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
